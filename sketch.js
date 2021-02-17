@@ -36,6 +36,7 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    box6 =new Box(200,200,70,70);
 }
 
 function draw(){
@@ -61,4 +62,5 @@ function draw(){
 
     bird.display();
     platform.display();
+	bo6.display();
 }
